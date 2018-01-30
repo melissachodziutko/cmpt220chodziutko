@@ -1,4 +1,4 @@
-package m;
+//package m;
 
 public class table {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package m;
+//package m;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class tipcalc {
 		double price = input.nextDouble();
 		
 		//calculate cost of tip and then the total cost of the meal
-		double tip = .15 * price;
+		double tip = .15 * price; // JA: The tip % should be read from the user
 		double cost = tip + price;
 		
 		//display tip and cost of meal
