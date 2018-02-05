@@ -23,7 +23,7 @@ public class Payroll {
 				"\n Federal Withholding (" + federalTax + "): " + (federalTax * (pay * hours)) +
 				"\n State Withholding (" + stateTax + "): " + (stateTax * (pay * hours)) + 
 				"\n Total Deductions: " + (((pay * hours) * federalTax) + ((pay * hours) * stateTax)) +
-				"\n Total Pay: " + ((pay * hours) - ((pay * hours) * federalTax) + ((pay * hours) * stateTax)));
+				"\n Total Pay: " + ((pay * hours) - ((pay * hours) * federalTax / 100 + (pay * hours) * stateTax / 100))); // JA
 
 	}
 
