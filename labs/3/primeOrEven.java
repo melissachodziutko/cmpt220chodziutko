@@ -31,7 +31,7 @@ public class primeOrEven {
 		} 
 		total += number;
 		amountOfNumbers++;
-		avg = total / amountOfNumbers;
+		avg = (double)total / amountOfNumbers; // JA: This has to be forced as a double
 		number = input.nextInt();
 	}
 		//print out final results
