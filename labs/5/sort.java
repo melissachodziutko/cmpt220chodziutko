@@ -4,6 +4,8 @@ public class sort {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
+		
+		//prompt user for list
 		System.out.print("enter in the amount of numbers that will be in the list: ");
 		int number = input.nextInt();
 
