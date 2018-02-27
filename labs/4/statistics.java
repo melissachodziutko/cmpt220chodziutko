@@ -1,4 +1,4 @@
-package hrkr;
+//package hrkr;
 
 import java.util.Scanner;
 

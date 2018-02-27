@@ -3,6 +3,10 @@ I tried everything, you correction unfortunately didn't fix it, and my code runs
 it just doesn't outprint anything other than 0 so kattis failed it every time
 */
 
+/*
+ You almost had it. Look at my comments below. I don't know if it will accept it now, but
+it runs the first sample. */
+
 import java.util.Scanner;
 
 public class A1Paper {
@@ -25,14 +29,14 @@ public class A1Paper {
     }
     
     double tapeUsed = 0;
-    int sizeNeeded = 0;
+    int sizeNeeded = 1; // JA: Made this 1 from 0
  
     for (int i = 0; i < n; i++) {
 
       tapeUsed += tape[i] * ((double)(sizeNeeded / 2));
-      if (sheets[i] >= sizeNeeded) {
+      if (sheets[i] >= sizeNeeded) { // JA: Because sizeNeeded was 0, this was always true
     	  sizeNeeded = 0;
-    	  break;
+    	  break; 
       } else
     	  sizeNeeded = (sizeNeeded - sheets[i]) * 2;
     }

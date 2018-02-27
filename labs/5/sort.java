@@ -11,7 +11,7 @@ public class sort {
 
 		// Prompt the user to enter in a list
 		System.out.print("Enter in " + number + " numbers to the list: ");
-		int[] array = new int[input.nextInt()];
+		int[] array = new int[number]; // JA
 		for (int i = 0; i < array.length; i++)
 			array[i] = input.nextInt();
 
