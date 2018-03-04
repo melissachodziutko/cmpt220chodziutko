@@ -1,6 +1,7 @@
+import java.util.Scanner;
+
 public class Algebra {
 
-import java.util.Scanner;
 
 	public static void main(String[] args) {
 				Scanner input = new Scanner(System.in);
@@ -15,9 +16,10 @@ import java.util.Scanner;
 		double f = input.nextDouble();
 	
 	
+		LinearEquation le = new LinearEquation();
 		//print equation
-		System.out.println(LinearEquation.getY(e, d, b, f, a, c));
-		System.out.println(LinearEquation.getX(e, d, b, f, a, c));
+		System.out.println(le.getY(e, d, b, f, a, c));
+		System.out.println(le.getX(e, d, b, f, a, c));
 
 	}
 
