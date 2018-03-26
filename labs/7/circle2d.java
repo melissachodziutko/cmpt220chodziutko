@@ -57,7 +57,7 @@ public class circle2d {
 	public boolean contains(circle2d circle) {
 		return Math.sqrt(Math.pow(circle.x() - x, 2) + 
 				 Math.pow(circle.y() - y, 2)) 
-				 <= Math.abs(radius - circle.radius());
+				 <= radius - circle.radius(); // JA
 	}
 
 }
