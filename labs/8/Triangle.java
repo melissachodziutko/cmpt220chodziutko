@@ -3,15 +3,18 @@ package hrlp;
 public class Triangle extends GeometricObject {
 
 	public static void main(String[] args) {
+		//variables for each side
 		double side1 = 1.0;
 		double side2 = 1.0;
 		double side3 = 1.0;
 		
+		//declare array to triangle sides
 		double[] triangle = new double[3];
 		triangle[0] = side1;
 		triangle[1] = side2;
 		triangle[2] = side3;
 		
+		//print triangle, area, and perimeter
 		System.out.println("triangle side1= " + triangle[0]);
 		System.out.println("triangle side2= " + triangle[1]);
 		System.out.println("triangle side3= " + triangle[2]);
