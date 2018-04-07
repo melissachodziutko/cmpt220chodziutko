@@ -8,12 +8,12 @@ public class counter {
 		File file = new File(args[0]);
 		
 
-		int characters = 0;	// characters
+		int characters = 0;// characters
 		int words = 0;	// words
 		int lines = 0;	// lines
 
 		try (
-			// Create input file
+			//input
 			Scanner input = new Scanner(file);
 		) {
 			while (input.hasNext()) {
