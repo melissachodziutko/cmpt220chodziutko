@@ -3,7 +3,7 @@ package hrlp;
 public class removetext{
 ArrayList<a> s2 = new ArrayList<>(); 
 		try (
-			// Create input file
+			// input
 			Scanner input = new Scanner(file);
 		) {
 			while (input.hasNext()) {
