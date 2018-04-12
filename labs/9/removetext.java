@@ -1,5 +1,6 @@
-package hrlp;
+//package hrlp;
 
+// JA: You are missing the main method
 public class removetext{
 ArrayList<a> s2 = new ArrayList<>(); 
 		try (
