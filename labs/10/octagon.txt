@@ -1,0 +1,11 @@
+package hrlp;
+
+public class Octagon extends GeometricObject implements Colorable {
+	public Octagon() {
+	}
+
+	//color method
+	public String color() {
+		return "Color all 8 sides";
+	}
+}
