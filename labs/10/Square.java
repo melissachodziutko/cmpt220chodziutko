@@ -1,4 +1,4 @@
-package hrlp;
+//package hrlp;
 
 public class Square extends GeometricObject implements Colorable {
 	public Square() {

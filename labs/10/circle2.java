@@ -1,4 +1,4 @@
-package hrlp;
+//package hrlp;
 
 public abstract class circle2
 extends GeometricObject implements Comparable<Circle> {
