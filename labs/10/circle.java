@@ -12,8 +12,8 @@ public class circle {
 		System.out.println("Circle2 radius: " + circle2.getRadius());
 		System.out.println("Circle3 radius: " + circle3.getRadius());
 
-		System.out.println("Circle1 is " + (circle1.equals(circle2));
+		System.out.println("Circle1 is " + (circle1.equals(circle2))); // JA
 
-		System.out.println("Circle1 is " + (circle1.equals(circle3));
+		System.out.println("Circle1 is " + (circle1.equals(circle3))); // JA
 	}
 }
