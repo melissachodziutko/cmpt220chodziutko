@@ -1,8 +1,7 @@
-package pls;
 
 import java.util.Scanner;
 
-public class house {
+public class House {
 
 public static void house1() {
 	Scanner input = new Scanner(System.in);
