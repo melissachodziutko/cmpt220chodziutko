@@ -1,4 +1,3 @@
-package pls;
 
 public class lose {
 
