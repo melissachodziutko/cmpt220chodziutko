@@ -1,8 +1,8 @@
-package pls;
+
 
 import java.util.Scanner;
 
-public class housebill {
+public class bousebill {
 
 	public static void houseincrease(){
 		Scanner input = new Scanner(System.in);
