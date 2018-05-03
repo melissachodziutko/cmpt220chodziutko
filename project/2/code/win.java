@@ -1,4 +1,3 @@
-package pls;
 
 import java.util.Random;
 import java.util.Scanner;
