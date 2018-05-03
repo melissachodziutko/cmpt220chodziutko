@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class House {
+public class house {
 
 public static void house1() {
 	Scanner input = new Scanner(System.in);
